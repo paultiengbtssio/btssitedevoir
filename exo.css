@@ -1,0 +1,19 @@
+footer {text-align: left;}
+
+marquee { vertical-align : middle;  
+          background-color: black;
+          color: darkgreen}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: whitesmoke; /* Couleur de fond du footer */
+    color: white; /* Couleur du texte du footer */
+    padding: 2px; /* Espace intérieur du footer */
+}
+
+label   {background-color: darkgreen;
+font-family: "Gill Sans"}

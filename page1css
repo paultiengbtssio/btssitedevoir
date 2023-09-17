@@ -1,0 +1,14 @@
+.page1css {
+  background-color: black;
+  text-align: center;
+
+}
+
+marquee {
+
+           color:  #1d9026 ;
+           background-color: black;
+           font-family: serif;
+
+
+}

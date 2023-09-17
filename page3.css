@@ -1,0 +1,26 @@
+footer  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: whitesmoke; /* Couleur de fond du footer */
+    color: darkred; /* Couleur du texte du footer */
+    padding: 5px; /* Espace intérieur du footer */
+}
+
+h1      {background: green;
+
+}
+
+marquee  {background: black;
+        color: green;
+}
+
+td  {
+     text-decoration-thickness: inherit;
+     background-color: ;
+     color: black;
+            font-weight: 40;
+            flex-wrap: inherit;
+            caret-color: darkred;
+            outline-width: thick;
+ }

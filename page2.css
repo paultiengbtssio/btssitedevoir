@@ -1,0 +1,12 @@
+footer  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: whitesmoke; /* Couleur de fond du footer */
+    color: darkred; /* Couleur du texte du footer */
+    padding: 5px; /* Espace intérieur du footer */
+}
+
+marquee {background: black;
+        color: green; 
+                    } 

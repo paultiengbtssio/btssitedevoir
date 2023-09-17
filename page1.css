@@ -1,0 +1,45 @@
+.page1css {
+  background-color: black;
+  text-align: center;
+
+}
+
+marquee {
+
+           color:  darkgreen;
+           background-color: black;
+           font-family: serif;
+
+}
+p {
+   
+  font-family: monospace;
+
+
+}
+
+article {
+  font-family: monospace;
+}
+
+h1  {font-family: monospace;  }
+
+ .backintro  { background-color: green;
+ 
+ }
+
+    
+
+
+
+
+
+
+footer  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: whitesmoke; /* Couleur de fond du footer */
+    color: darkred; /* Couleur du texte du footer */
+    padding: 5px; /* Espace intérieur du footer */
+}

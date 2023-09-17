@@ -1,0 +1,41 @@
+.loginadroite {
+	text-align: ;
+	background-color: red;
+
+
+}
+
+h1   {background-color: green;
+
+
+
+}
+
+marquee {background-color: black;
+	  	 color: darkgreen;
+
+
+
+}
+
+body {background-color: black;
+      color: white;
+}
+
+table { color: Green;
+	     background-color: black;
+
+
+}
+
+footer  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: whitesmoke; /* Couleur de fond du footer */
+    color: darkred; /* Couleur du texte du footer */
+    padding: 5px; /* Espace intérieur du footer */
+}
+
+label {background-color: darkgreen;}
+
