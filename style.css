@@ -82,6 +82,7 @@ marquee {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 /* Style pour chaque symbole */
