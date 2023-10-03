@@ -6,7 +6,7 @@ p {background-color: green;
 
 }
 
-
+ol {color: white;
 
 
 }
@@ -69,9 +69,9 @@ legend { margin: 0;
 
 }
 
-p {background-color: green ;
-   color: black;}
+p {background-color: white ;
+   color: green;}
 
 p2 {color: red }
 
-    }
+    size:       ;}
