@@ -1,15 +1,17 @@
 body {background-color: green;}
 
 button,.t5{
-        width: 250px;
+        width: 350px;
         height: 50px;
         background-color: white;
         border: 2px solid black;
         border-radius: 10px;
         color: black;
         font-size: 1.2em;
-        margin: 23px;
+        margin-left: 5px;
         transition: 0.2s;
+        margin-top: 5px;
+
 }
 
 button:hover {
@@ -18,6 +20,9 @@ button:hover {
                 color: black;
                 transition: 150ms;
                 transform: scale(1.5);
+                margin-top: 5px;
+                margin-left: 5px;
+
 
 
 
@@ -26,29 +31,32 @@ button:hover {
 }
 
 input.t{
-    width: 250px;
-    height: 25px;
+    width: 270px;
+    height: 50px;
     background-color: aliceblue;
     border: 2px solid black;
     border-radius: 20px;
     color: black;
     font-size: 1.5em ;
-    margin: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+
     font-family: verdana;
-    padding: 10px;
+    ;
 }
 
 input.t34{
-    width: 200px;
-    height: 10px;
+    width: 350px;
+    height: 50px;
     background-color: aliceblue;
     border: 2px solid black;
     border-radius: 20px;
     color: black;
     font-size: 1.5em ;
-    margin: 30px;
+    margin-top: 5px;
     font-family: verdana;
-    padding: 10px;
+    margin-left: 5px;
+
 }
 
 h1 {color: yellow ;}
