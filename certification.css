@@ -1,0 +1,20 @@
+.t1 {
+    float:left;
+    height: 350px;
+    width: 475px;
+    border: solid 10px black;
+
+}
+.t1:hover {
+    zoom: 150%;
+
+}
+.t2{
+    float: right;
+    height: 350px;
+    width: 475px;
+    border: solid 10px black;
+}
+.t2:hover {
+    zoom: 150%;
+}
