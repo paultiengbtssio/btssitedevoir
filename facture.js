@@ -18,3 +18,4 @@ function Facture() {
     t5.value=(somme)
 
 }
+

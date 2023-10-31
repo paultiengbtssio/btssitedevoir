@@ -30,6 +30,7 @@ li {background-color: black;
 
 }
 
+
 footer  {
     position: fixed;
     bottom: 0;
@@ -38,6 +39,7 @@ footer  {
     color: darkred; /* Couleur du texte du footer */
     padding: 5px; /* Espace intérieur du footer */
 }
+
 
 body  { background-color: greenyellow;
 
