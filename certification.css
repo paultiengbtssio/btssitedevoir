@@ -1,20 +1,10 @@
-.t1 {
-    float:left;
-    height: 350px;
-    width: 475px;
-    border: solid 10px black;
 
-}
-.t1:hover {
-    zoom: 150%;
 
+img:hover {  height: 450px;
+    width: 575px;
+   
 }
-.t2{
-    float: right;
-    height: 350px;
-    width: 475px;
-    border: solid 10px black;
-}
-.t2:hover {
-    zoom: 150%;
-}
+body { background-color: aqua;}
+
+
+ div:hover  {  background-color: green;}
