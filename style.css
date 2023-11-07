@@ -1,112 +1,202 @@
-h1 {
-  margin: 0;
-  padding: 30px 0;
-  color:  black  ;
- text-shadow: 1px 1px 2px greenyellow;, 0 0 1em white;, ;
- padding: 10px;
- background-color: green;
- text-transform: capitalize;
+body{
+  font-family: Verdana, Calibri, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
-a href
- {color:  purple;}
-
-
-.stylecss {
-  background-color: ededed;
-  text-align: center;
-
+nav > ul{
+  margin: 0px;
+  padding: 0px;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+nav li{
+  list-style-type: none;
 }
 
-stylecss2 {
-  background-color: ededed;
+nav > ul > li{
+  float: left;
 }
 
-
-h3  {
- 		text-align: center;
- 		text-shadow: 1px 1px 2px red, 0 0 1em #c80000  #c80000 ;
- 		color:  
- 		#1d9026  ;
- 		text-decoration: ;
-
-
-
+.submenu{
+  display: none;
 }
 
-marquee {
-
-           color:  #1d9026 ;
-           background-color: black;
-           font-family: serif;
-
-
+nav input[type=checkbox]{
+  display: none;
 }
 
+.menu-mobile{
+  display: none;
+}
 
+nav{
+  width: 100%;
+  background-color: #424558;
+}
 
+nav > ul > li{
+  float: left;
+  position: relative;
+}
+body{
+  font-family: Verdana, Calibri, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
 
-.imgdefond {
-  padding: 0.0.4%;
-  background-color: white;
+nav > ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li{
+  list-style-type: none;
+}
+
+nav > ul > li{
+  float: left;
+}
+
+.submenu{
+  display: none;
+}
+
+nav input[type=checkbox]{
+  display: none;
+}
+
+.menu-mobile{
+  display: none;
+}
+
+nav{
+  width: 100%;
+  background-color: #424558;
+}
+
+nav > ul > li{
+  float: left;
   position: relative;
 }
 
-.imgdefond :before {
+nav > ul::after{
   content: "";
-  width: 4%;
-  height: 100%;
-  background-color: #0055A4;
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: table;
+  clear: both;
 }
 
-.imgdefond :after {
-  content: "";
-  width: 4%;
-  height: 100%;
-  background-color: #EF4135;
-  position: absolute;
-  top: 0;
-  right: 0;
+nav a{
+  display: inline-block;
+  text-decoration: none;
 }
 
-.ecriture {font-family: "Gill Sans"}
+nav > ul > li > a{
+  padding: 20px 30px;
+  color: #FFF;
+}
 
-.symbol-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+nav li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 100000;
+}
+
+.submenu li{
+  border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+  padding: 15px 30px;
+  font-size: 13px;
+  color: #222538;
+  width: 270px;
+}
+
+.menu-html:hover {
+  border-top: 5px solid #e44d26;
+  background-color: RGBa (228, 77, 38,0.15);
+
+
+}
+
+.menu-css:hover {
+              border-top: 5px solid #0070bb;
+              background-color: RGBa (000,112,192,0.15);
+
+
+            }
+
+.menu-js:hover {
+            border-top: 5px solid #f1dc4f;
+            background-color: RGba(241,211,79,0.15 );  }
+
+.menu-contact:hover {
+                border-top: 5px solid #BBB;
+                background-color: RGba(220,220,220, 0.15 );  }
+
+nav > ul > li:hover   a{
+  padding: 15px 30px 20px 30px;
+}
+
+.menu-html .submenu{
+    background-color: RGB(230,100,40);
+
+
+
+
+
+}
+
+.menu-css .submenu{
+  background-color: RGB(000, 160, 240);
+}
+
+.menu-js .submenu{
+  background-color: RGB(251, 216, 99);
+}
+
+.submenu li:hover a{
+  color: #EEE;
+  font-weight: bold;
+}
+
+.menu-html .submenu li:hover{
+  background-color: RGB(210, 77, 60);
+}
+
+.menu-css .submenu li:hover{
+  background-color: RGB(000, 115, 200);
+}
+
+.menu-js .submenu li:hover{
+  background-color: RGB(200, 165, 75);
+}
+
+.menu-mobile{
+  display: none;
+}
+
+nav input[type=checkbox]{
+  display: none;
+}
+
+nav input[type=checkbox]:checked ~ ul{
+  display: block;
+}
+
+@media screen and (max-width : 680px){
+  .menu-mobile{
+      display: block;
+      color: #FFF;
+      background-color: rgba(29, 197, 151, 0.97);
+      text-align: center;
+      padding: 12px 0;
+  }
   
+  nav ul{
+    display: none;
 }
-
-/* Style pour chaque symbole */
-.symbol {
-  width: 200px;
-  height: 200px;
-  background-color: #fff;
-  border: 2px solid #333;
-  border-radius: 50%;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  transition: background-color 0.3s ease;
-   background-image: url('MES PROJETS/SITE 1/fondelec.jpg');
 }
-
-.symbol:hover {
-  background-color: #333;
-  color: #fff;
 }
-
-
-
-

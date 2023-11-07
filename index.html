@@ -1,136 +1,89 @@
-<html>  
-<head> 
+<!DOCTYPE html>
+<html>
 
-        <link href="style.css" rel="stylesheet">
-	<center> <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-        body {
-            background-color: white;
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            text-align: center;
-            
-       
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        a {
-            color: orange;
-        
-    
+<!-- Haut de page -->
 
+    <head> 
 
-</style> 
-	<marquee> Bienvenue sur l'index ! Si vous avez franchit ce cap c'est que vous avez cliqué sur le lien gitub . Voici l'index , le présentoir du site internet menant à la direction de la structure du site et chaque page . Vous pourrez voir en marquee l'anvancement  structurelle de chaque page tout en haut et des liens de directions. 
-	De manière ordonnée nous faisons face à une présentation numérologique avec 1 , 2 , 3 , 4 et 5  etc.. avec la nouvelle venue d'une balise nommée ol celle-ci entoure le sommaire et la ponctuation pour la mise en place sera li </marquee>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
- 
-	    
+            <title> Sommaire </title>
 
-	 <center> <title > SOMMAIRE </title> </center> 
-	</head>
+        <link rel="stylesheet" type="text/css" href="style.css">
 
+    </head>
 
-	 
-	 	   <body class="stylecss"> <h1> <u> SOMMAIRE</h1> </u>  
-	  
-<br> <div class="symbol-container">
-    <div class="symbol">   <a href="page1.html " class="stylecss2" > PAGE N°I <img src="clic.png" height="20"></a>   </div>
-</font> 
- <br> <br>  
- 	 
-<a href="page2.html"><div class="symbol">  PAGE N°II</a> </font> <img src="clic.png" height="20"></a>  </div>
- <br>  <br>   
-	
-<a href="page3.html"> <div class="symbol">  PAGE N°III  </a> </font>  <img src="clic.png" height="20"></a>  </div> 
-<br> <br>  
-<a href="identification.html"> <div class="symbol">  S'IDENTIFIER</a> <img src="clic.png" height="20"></a> </div>
-	
-<br> <br>  <div class="symbol">  <a href="formulaire1.html"> FORMULAIRE A REMPLIR </a> <img src="clic.png" height="20"> </div>
-		<br>  <br>     <div class="symbol">  <a href="exoformulaire.html"> EXO FORMULAIRE <img src="clic.png" height="20"> </a> </div>
-			<br>     <br>   
+<!-- Contenu -->
 
-            <div class="symbol">  <a href="pagebalise.html"> PAGE BALISE AVEC DEFINITION </a>  <img src="clic.png" height="20"> </div>`
+    <body background="../images/fond.jpg">
 
+        <nav>
 
-        <div class="symbol">  <a href="./tp32/index.html"> TP3 </a>  <img src="clic.png" height="20"> </div>
+            <label for="menu-mobile" class="menu-mobile"> Menu </label>
+            <input type="checkbox" id="menu-mobile" role="button">
 
-        <div class="symbol">  <a href="TP4/Travaux.html"> TP4 </a>  <img src="clic.png" height="20"> </div>
+            <ul>
 
-         <div class="symbol">  <a href="mission1.html"> MISSION 1 </a>  <img src="clic.png" height="20"> </div>
-
-
-         <div class="symbol">  <a href="../TP5/tp5.html"> tp5</a>  <img src="clic.png" height="20"> </div>
-
-         <div class="symbol">  <a href="mission2.html"> MISSION 2</a>  <img src="clic.png" height="20"> </div>
-
-         <div class="symbol">  <a href="tp6/tp6.html"> TP6</a>  <img src="clic.png" height="20"> </div>
-
-         <div class="symbol">  <a href="calculatrice/calculatrice.html"> calculatrice</a>  <img src="clic.png" height="20"> </div>
-
-         <div class="symbol">  <a href="facture.html"> Facture </a>  <img src="clic.png" height="20"> </div>
-
-         <div class="symbol">  <a href="certification.html"> Certifications</a>  <img src="clic.png" height="20"> </div>
+                <li class="menu-html"> <a href="#"> HTML & CSS</a>
+                    <ul class="submenu">
+                        <li> <a href="identification.html"> <div class="symbol">  S'IDENTIFIER</a> </li>
+                        <li> <a href="page1.html " class="stylecss2" > PAGE N°I    </a> </li>
+                        <li> <a href="page2.html"  class="symbol" >   PAGE N°II</a>    </li>
+                        <li> <a href="page3.html"> <div class="symbol">  PAGE N°III    </a> </li>
+                    <li> <a href="formulaire1.html"> FORMULAIRE A REMPLIR </a>  </li>
+                        <li> <a href="exoformulaire.html"> EXO FORMULAIRE </a></li>
+                            <li> <a href="./tp32/index.html"> L'importance des iframes </a> </li>
+                                <li> <a href="TP4/Travaux.html"> TP4 </a>  </li>
+                                    <li> <a href="../TP5/tp5.html"> tp5</a>  </li>
+                                       
+                                                    
+                </li> </ul>
 
         
-        
 
- 
-</footer> <br> <br> <br> <br> <br>  
-<h3>   Nous allons voir avec la numérotation des pages dans l'ordre  la structure travaillée durant le cours et l'explication personnelle de l'élève pour la réalisation de celle-ci .</h3> 
- <br>	
-  	<ul> 
-    <center> <label style="color: red">    <a href="page1.html" style="color: red;"> Page N°1 </a> </label> </center> <br>
-    	<li>
-    Cette page est la toute première du trimestre et des cours de HTML, d'où la syntaxe. Elle contient les bases, donc les balises title, l'élément définit le titre du document (qui est affiché dans la barre de titre du navigateur ou dans l'onglet de la page). Cet élément ne peut contenir que du texte, les balises qu'il contiendrait seraient ignorées. , head (la tête de la page), le p pour paragraphe, le center pour le centrage, le br pour l'espacement, le hr pour le trait de séparation, le body donc le corps de la page où seront intégrés la majorité des éléments de la page, la mise en page d'images et la redirection par href.
-   
+                <li class="menu-css"> <a href="#"> JavaScript </a>
+                    <ul class="submenu">
+                        <li> <a href="tp6/tp6.html"> TP6</a>  </li>
+                        <li> <a href="calculatrice/calculatrice.html"> calculatrice</a>   </li>
+                        <li> <a href="facture.html"> Facture </a> </li>
+                        <li> <a href="./moyenne/moyenne.html"> <div class="symbol">  Moyenne   </a> </li>
+                </li> </ul>
 
-</li>
-<br>
-<center>
-    <label style="color: red">  <a href="page2.html" style="color: red;"> Page N°2  </a> </label>
-</center>
-<br>
-<li> Dans cette page, le but de l'exercice est de montrer à l'utilisateur des titres et la conception du tableau avec les tr et les td, ainsi que la mise en page. La personnalisation du tableau avec de l'ajout de couleur et le contrôle de la dimension.
-</li>
-<br>
-<center>
-    <label style="color: red">  <a href="page3.html" style="color: red;">Page N°3  </a></label>
-</center>
-<br>
-<li> Cette page sert d'exemple. Un entraînement qui servira par la suite à la mise en place d'un formulaire. Celle-ci est composée d'un tableau montrant une liste d'achats à réaliser. Rien de nouveau du point de vue de la conception, notons que le body, donc le corps de la page, est vert et que la couleur du hr est noire.
-</li>
-<br>
-<center>
-    <label style="color: red"> <a href="identification.html" style="color: red;">Page "S'IDENTIFIER" </a> </label>
-</center>
-<br>
-<li> Dans cette page, nous avons l'apparition des inputs de type button à valider ou annuler, et l'input de type text pour nommer un utilisateur, mais aussi l'ajout de texte exemple par placeholder donnant déjà un modèle pour l'ajout du texte.
-</li>
-<br>
-<center>
-    <label style="color: red"> <a href="formulaire1.html" style="color: red;"> Page "FORMULAIRE À REMPLIR " </a> </label>
-</center>
-<br>
-<li> Voici le tout premier formulaire réalisé avec des inputs pour le texte, mais aussi pour le mot de passe et la radio. Il faut que le nom de la radio soit corrélé avec le thème, sinon l'encoche sera mal distribuée. Un élément intéressant intervient ici, c'est le menu déroulant ! En effet, le choix de la ville nous est maintenant simplifié par un choix parmi la balise select mis en place par option. Le label indique la thématique impliquée. L'ajout de iframe vient illustrer notre code avec une frame déjà existante sur internet, par exemple, Google ou YouTube.
-</li> <br>
-<center>
-    <label style="color: red"> <a href="exoformulaire.html" style="color: red;"> Page " EXO FORMULAIRE " </a> </label>
-</center>
-<br>
-<li> Dans ce cas présent, voici la mise en page d'un formulaire standard qui met en forme les nouvelles balises vues en cours. Celles-ci font de la page une page plus propre avec le tableau. L'organisation de celle-ci se fera avec des tr qui entourent deux td. L'ajout d'une barre de choix, comme vu précédemment, une barre de jauge, nouvelle barre qui a son utilité avec input range pour la jauge. Le but de la page est un réel challenge pour s'entraîner à créer un formulaire !
-</li> 
+                <li class="menu-js"> <a href="#"> Base de données</a>
+                    <ul class="submenu">
+                   
+                </li> </ul>
+
+                <li class="menu-js"> <a href="#"> PHP </a>
+                    <ul class="submenu">
+                        
+                </li> </ul>
+
+                <li class="menu-js"> <a href="#"> Missions </a>
+                    <ul class="submenu">
+                            
+                        <li> <a href="mission1.html"> MISSION 1</a> </li>
+                        <li> <a href="mission2.html"> MISSION 2</a> </li>
+                       
+                </li> </ul>
+
+                <li class="menu-js"> <a href="#"> Certifications </a>
+                    <ul class="submenu">
+                        <li> <a href="certification.html"> Certifications </a> </li>
+                       
+                </li> </ul>
 
 
 
 
-  </ul>
 
-  
-   <div class= "imgdefond" >  <center> <small>  Professeur : Anis Chergui </small> <br>
-        <small>Achergui@parisnanterre.fr </small> </center> </div>
- 
+                <li class="menu-contact"> <a href="#"> Contact </a> </li>
+
+            </ul>
+        </nav>
+
+
+
+    </body>
 </html>
