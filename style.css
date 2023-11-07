@@ -2,6 +2,9 @@ body{
   font-family: Verdana, Calibri, sans-serif;
   margin: 0px;
   padding: 0px;
+  background-image: url("../images/fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav > ul{
@@ -194,9 +197,17 @@ nav input[type=checkbox]:checked ~ ul{
       text-align: center;
       padding: 12px 0;
   }
-  
+
   nav ul{
     display: none;
 }
 }
+marquee {
+
+  color:  #1d9026 ;
+  background-color: black;
+  font-family: serif;
+
+
 }
+
