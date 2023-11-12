@@ -1,0 +1,112 @@
+h1 {
+  margin: 0;
+  padding: 30px 0;
+  color:  black  ;
+ text-shadow: 1px 1px 2px greenyellow;, 0 0 1em white;, ;
+ padding: 10px;
+ background-color: green;
+ text-transform: uppercase;
+}
+
+a href
+ {color:  purple;}
+
+
+.stylecss {
+  background-color: ededed;
+  text-align: center;
+
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+stylecss2 {
+  background-color: ededed;
+}
+
+
+h3  {
+ 		text-align: center;
+ 		text-shadow: 1px 1px 2px red, 0 0 1em #c80000  #c80000 ;
+ 		color:  
+ 		#1d9026  ;
+ 		text-decoration: ;
+
+
+
+}
+
+marquee {
+
+           color:  #1d9026 ;
+           background-color: black;
+           font-family: serif;
+
+
+}
+
+
+
+
+.imgdefond {
+  padding: 0.0.4%;
+  background-color: white;
+  position: relative;
+}
+
+.imgdefond :before {
+  content: "";
+  width: 4%;
+  height: 100%;
+  background-color: #0055A4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imgdefond :after {
+  content: "";
+  width: 4%;
+  height: 100%;
+  background-color: #EF4135;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ecriture {font-family: "Gill Sans"}
+
+.symbol-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+/* Style pour chaque symbole */
+.symbol {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 50%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+   background-image: url('MES PROJETS/SITE 1/fondelec.jpg');
+}
+
+.symbol:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+

@@ -1,0 +1,28 @@
+h2 {text-align: right;
+    background-color: black;
+    color: lightgreen
+       }
+
+
+body {text-align: right;
+	background-image: url"https://img.freepik.com/vecteurs-libre/fond-numerique-code-binaire-style-matrice-nombres-baisse_1017-25336.jpg?w=2000&t=st=1694804420~exp=1694805020~hmac=345df094bb12fc2d1efa21a1dc633470f08abbced62118f5d2ad68ff6e53145d"
+}
+
+
+footer  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: whitesmoke; /* Couleur de fond du footer */
+    color: darkred; /* Couleur du texte du footer */
+    padding: 5px; /* Espace intérieur du footer */
+}
+
+marquee {background-color: black;
+        color: darkgreen;
+
+            }
+
+label {background-color: green;
+    color: whitesmoke;
+}
