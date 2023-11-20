@@ -21,14 +21,34 @@
 	
 		
 		<p>  <tr> <label> Nom d'utilisateur :  </label>
-		<input type="text" name="CHAD" placeholder="Veuillez saisir votre nom utilisateur ">
+		<input type="text" name="CHAD" placeholder="Veuillez saisir votre nom utilisateur " id="t1">
 		
 		<br>
 		<label> Mot de passe :   </label>
-		<input type="text" name="CHAD" placeholder="Veuillez saisir votre mot de passe utilisateur "> 
+		<input type="text" name="CHAD" placeholder="Veuillez saisir votre mot de passe utilisateur " id="t2"> 
 		<br>
-		<input type="button" name="valider" value="valider">
+		<input type="button" name="valider" value="valider" onclick="connexion2()">
 		<input type="button" name="valider" value="annuler"> </p> </table>
+
+		<script>
+			function connexion2() {
+			var username = document.getElementById('t1').value;
+			var passwork = document.getElementById('t2').value;
+			if (username == "admin" && passwork == "admin") 
+			 {
+				window.location.href='page1.html';
+			 }
+			else {
+				window.location.href='page2.html';
+			}
+
+		}
+
+
+
+
+
+		</script>
 
 
 
@@ -41,7 +61,7 @@
 
 
 <footer> <button> <small> 
-<a href="index.html" class="footer">  < Revenir au Sommaire </a>
+<a href="../../index.html" class="footer">   Revenir au Sommaire </a>
 </html> </small> </button>  </footer>
 
 	</body>
