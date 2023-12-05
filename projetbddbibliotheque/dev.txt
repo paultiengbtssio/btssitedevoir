@@ -1,0 +1,68 @@
+Requêtes SQL Bibliothèque
+
+Afficher la liste des livres du genre policier
+SELECT *
+FROM LIVRES
+WHERE genre = ‘policier’ ;
+
+Afficher les noms et prénoms des auteurs ayant un nom qui commence par la lettre A.
+SELECT Nom, Prenom
+FROM AUTEURS
+WHERE Nom LIKE 'A%' ;
+
+Afficher la liste des livres disponibles
+    SELECT * 
+FROM LIVRES 
+WHERE Disponibilité = '1' ;
+
+Afficher les références des livres jamais empruntés
+    SELECT Reference_livre
+    FROM LIVRES
+    WHERE Nbre_emprunts = 0;
+
+Afficher la liste des livres ayant 5 exemplaires
+SELECT *
+FROM LIVRES
+WHERE Nbre_exemplaire =  5 ;
+
+Afficher la liste des livres en bon état 
+SELECT *
+FROM LIVRES
+WHERE Etat = “Bon état” ;
+
+Afficher les références, les genres des livres qui sont publiés avant été publié avant 1990
+SELECT Reference_livre, genre
+FROM LIVRES
+WHERE Date_publication < #01/01/1990#
+
+Afficher les références, les genres des livres qui sont publiés  entre 1980 et 1990
+SELECT Reference_livre, genre
+FROM LIVRES
+WHERE Date_publication BETWEEN 01/01/1980 AND 31/12/1990 .
+
+Afficher les ID des auteurs et les références des livres du genre policier
+SELECT Id_auteur, Reference_livre
+FROM LIVRES
+WHERE Genre = policier ;
+Afficher les noms des auteurs ayant écrits des livres du genre policier
+SELECT Nom
+FROM AUTEURS A
+INNER JOIN LIVRES L ON L.Id_auteur = A.Id_auteur
+WHERE genre = policier ;
+
+Afficher la liste des auteurs ayant écrit des livres du genre policier 
+SELECT A.*
+FROM AUTEURS A
+INNER JOIN LIVRES L ON L.Id_auteur = A.Id_auteur
+WHERE genre = ‘policier’;
+
+Afficher la liste des emprunts réalisés par l’Adhérent 123
+SELECT *
+FROM EMPRUNTS
+WHERE ID_adherent = ‘123’;
+
+Afficher la liste des emprunts réalisés par l’Adhérent Rémy Eter 
+SELECT E.*
+FROM EMPRUNTS E
+INNER JOIN Adherents A ON A.ID_adherent = E.ID_adherent
+WHERE A.Nom = ‘Eter’ AND A.Prenom = ‘Rémy’ 
